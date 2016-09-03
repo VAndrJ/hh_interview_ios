@@ -6,7 +6,7 @@ General:
 
 - [```Что такое *инкапсуляция? Что такое *нарушение инкапсуляции?```](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/encapsulation.md)
 
-- Чем `абстрактный` класс отличается от `интерфейса`?
+- [Чем `абстрактный` класс отличается от `интерфейса`?]()
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?
 - Какие еще `паттерны` знаете?
@@ -285,3 +285,9 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 Additional:
 -----------------------------
 - Анкета в которой просят оценить свои знания по технологиям по 10 бальной шкале.
+
+
+## Контакты для связи:
+* skype: torlopov.andrey
+* email: [torlopov.andrey@gmail.com](mailto:torlopov.andrey@gmail.com)
+* github: [https://github.com/Torlopov-Andrey](https://github.com/Torlopov-Andrey)
