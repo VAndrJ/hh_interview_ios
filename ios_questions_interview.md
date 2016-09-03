@@ -89,8 +89,8 @@ Networking:
 
 Multithreading:
 ---------------
-- Что такое `deadlock`?
-- Что такое `livelock`?
+- [Что такое `deadlock`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/deadlock.md)
+- [Что такое `livelock`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/livelock.md)
 - Что такое `семафор (semafor)`?
 - Что такое `мьютекс (mutex)`?
 - `Асинхронность` vs `многопоточность`. Чем отличаются?

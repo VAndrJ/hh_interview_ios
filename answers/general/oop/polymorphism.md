@@ -1,7 +1,8 @@
 ## Полиморфизм
-https://ru.wikipedia.org/wiki/Полиморфизм_(информатика)
 
 [**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+
+https://ru.wikipedia.org/wiki/Полиморфизм_(информатика)
 
 Полиморфизм - это базовый принцип ООП. Суть заключается в том, что один и тотже метод
 разных наследников имеет собственную реализацию.
