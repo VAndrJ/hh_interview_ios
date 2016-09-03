@@ -4,18 +4,15 @@ General:
 --------
 - [Что такое `полиморфизм`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/ppolymorphism.md)
 
-- [```Что такое *инкапсуляция? Что такое *нарушение инкапсуляции?```](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/encapsulation.md)
+- [Что такое `инкапсуляция`? Что такое нарушение инкапсуляции?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/encapsulation.md)
 
-- [Чем `абстрактный` класс отличается от `интерфейса`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/abstractclass_vs_interface.md)
+- [Чем `абстрактный класс` отличается от `интерфейса`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/abstractclass_vs_interface.md)
 
-- [Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/mvc_active_passive.md)
+- [Расскажите о паттерне `MVC`. Чем отличается `пассивная` модель от `активной`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/mvc_active_passive.md)
 - [Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/singleton_arc_non_arc.md)
 
 
-- Какие еще `паттерны` знаете?
-- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstarct Factory`?
-- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`?
-- Патерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`?
+- [Какие еще `паттерны` знаете?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/lilbit_patterns.md)
 
 - Что такое `responder chain`?
 
