@@ -1,6 +1,6 @@
 ## Чем `абстрактный` класс отличается от `интерфейса`
 
-[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
 
 `Абстрактный класс` - это класс, у которого не реализован один или больше методов (некоторые языки требуют такие методы помечать специальными ключевыми словами).

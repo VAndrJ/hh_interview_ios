@@ -1,6 +1,6 @@
 ## Какие еще `паттерны` знаете?
 
-[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
 * Паттерны порождающие, создания объектов (Creational):
   * Singleton (Одиночка)

@@ -1,6 +1,6 @@
 ## Реализация синглтона в ARC и в non-ARC?
 
-[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
 **ARC**
 ```objective-c

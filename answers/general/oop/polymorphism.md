@@ -1,6 +1,6 @@
 ## Полиморфизм
 
-[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+[**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
 https://ru.wikipedia.org/wiki/Полиморфизм_(информатика)
 

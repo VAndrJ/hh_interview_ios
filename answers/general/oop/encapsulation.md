@@ -1,6 +1,6 @@
 ## Инкапсуляция
 
-[**Вернутся к списку вопросов](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/ios_questions_interview.md)
+[**Вернутся к списку вопросов](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
 ```Инкапсуляция (англ. encapsulation)```  это фундаментальная объектно-ориентированная концепция, позволяющая упаковывать данные и поведение в единый компонент с разделением его на обособленные части - интерфейс и реализацию.
 
