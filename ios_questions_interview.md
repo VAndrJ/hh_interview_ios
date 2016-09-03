@@ -2,7 +2,7 @@
 =======
 General:
 --------
-- [Что такое `полиморфизм`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/ppolymorphism.md)
+- [Что такое `полиморфизм`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/polymorphism.md)
 
 - [Что такое `инкапсуляция`? Что такое нарушение инкапсуляции?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/encapsulation.md)
 
