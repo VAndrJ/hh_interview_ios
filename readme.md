@@ -74,6 +74,7 @@ Objective-C, Foundation:
 - [Использование instancetype.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/instancetype.md)
 - [Проксирование: forwardingTargetForSelector: и forwardInvocation:](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/proxing.md)
 - [NSFastEnumeration](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsfastenumaration.md)
+
 Memory Management:
 ------------------
 - [Как происходит `ручное управление памятью - MRC` в iOS?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/mrc.md)
