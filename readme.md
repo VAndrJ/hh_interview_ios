@@ -25,7 +25,7 @@ Objective-C, Foundation:
 - [Суть `рантайма (Runtime), отправление сообщения`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/runtime.md)
 - [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
-- [Разница между NSObject и id?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsobject_vs_id.md
+- [Разница между NSObject и id?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsobject_vs_id.md)
 - В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя?
 - [Разница между `nil` и `Nil`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nil_Nil_NSNull.md)
 - [Что такое `селектор (selector)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/what_is_selector.md)
@@ -44,20 +44,18 @@ Objective-C, Foundation:
 - [Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_extention.md)
 - [Можно ли добавить `ivar` в категорию?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_in_category.md)
 - [Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_inheritance.md)
-
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
 - [Какая разница между использование `делегатов (delegation)` и `нотификейшенов (notification)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate_vs_notification.md)
 - [В чем разница между `NSArray и NSMutableArray`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsarray_nsmutablearray.md)
 - [Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/NSSet_NSArray.md)
 - [Как получить текущую координату?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/how_get_current_coordinate.md)
-- [`Формальный и неформальный (informal)` протокол?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/formal_vs_informal_protocol.md)
+- [Формальный и неформальный (informal) протокол?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/formal_vs_informal_protocol.md)
 - Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
 - [Есть ли `приватные и защищенные` методы в Objective-C?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/private_and_protected_methods.md)
 - Что такое `быстрое перечисление (fast enumeration)`?
 - Как имитировать `множественное наследование`?
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
 - Что такое `KVC`? Когда его нужно использовать?
-- Что такое `designated initializer`?
 - Как удалить объект в ходе итерации по циклу?
 - [Что такое `Run Loop`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/run_loop.md)
 - Как лучше всего загрузить `UIImage c диска(с кеша)`?
