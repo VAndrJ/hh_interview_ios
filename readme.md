@@ -301,9 +301,13 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 ```objc
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ```
-Additional:
------------------------------
-- Анкета в которой просят оценить свои знания по технологиям по 10 бальной шкале.
+
+Swift:
+-------------
+
+- [Weak vs unowned](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/swift/weak_vs_unowned.md)
+
+
 
 
 ## Контакты для связи:
