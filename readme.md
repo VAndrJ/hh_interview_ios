@@ -163,7 +163,7 @@ Logical:
 --------
 Есть 4 человека, каждый проходит мост за 1, 2, 5, и 10 минут соответственно. Через мост они могут переходить только парами, держась за руку и только с фонариком. Притом один должен вернуться обратно и передать фонарик. Необходимо переправить всех за 17 мин на другую сторону. Задача решаема.
 
-[Решение](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/aanswers/logical/bridge.md)
+[Решение](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/logical/bridge.md)
 
 
 Code Puzzels:
