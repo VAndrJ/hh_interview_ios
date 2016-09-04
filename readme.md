@@ -32,15 +32,16 @@ Objective-C, Foundation:
 - Как его вызвать? как отложить вызов селектора?
 - Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`? `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`
-- Что такое `делегат (delegate)`? как его создать и использовать?
+- [Что такое `делегат (delegate)`? как его создать и использовать?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate.md)
 - Как представлены `структуры C` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-c отличается от структуры С, что такое структура в С.
 - [Какие существуют `root классы` в iOS? Для чего нужны `root классы`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/root_classes.md)
 - Корневые классы: NSObject, NSProxy? Как работает proxy? Как эмитировать множественное наследование?
 - [`Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? ](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/send_message_to_id.md)
 - Что случится во время выполнения если этот метод существует? Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
-- Что такое `указатель isa`? Для чего он нужен?
-- Что происходит с методом после того, как он не нашелся в объекте класса, которому его вызвали? Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)?
+- [Что такое `указатель isa`? Для чего он нужен?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/isa.md)
+- [Что происходит с методом после того, как он не нашелся в объекте класса, которому его вызвали?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/not_find_method_in_object.md)
+- Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)?
 - [Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_extention.md)
 - [Можно ли добавить `ivar` в категорию?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_in_category.md)
 - [Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_inheritance.md)
