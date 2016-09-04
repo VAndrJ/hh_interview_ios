@@ -194,13 +194,13 @@ void startTimer(void *threadId)
           userInfo:nil
            repeats:NO];
 }
-
 pthread_create(&thread, NULL, startTimer, (void *)t);
 ```
 
-- Какой метод вызовется: класса A или класса B? Как надо изменить код, чтобы вызвался метод класса A?
 
-```objc
+- [Какой метод вызовется: класса A или класса B? Как надо изменить код, чтобы вызвался метод класса A?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/code_puzzles/method_classA_and_classB.md)
+
+```objective-c
 @interface A : NSObject
 - (void)someMethod;
 @end
