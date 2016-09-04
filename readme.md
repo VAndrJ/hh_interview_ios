@@ -291,7 +291,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 }
 ```
 
-- [Что выведется в консоль?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/GCD_example_1.md)
+- [Что выведется в консоль?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/code_puzzles/GCD_example_1.md)
 
 ```Objective-C
  dispatch_async(dispatch_get_main_queue(), ^
