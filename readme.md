@@ -23,9 +23,13 @@ Objective-C, Foundation:
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
 - Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?
 - Суть `рантайма (Runtime), отправление сообщения`;
+
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
+
 - В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя? Разница между nil и Nil?
-- Что такое `селектор (selector)`? Как его вызвать? как отложить вызов селектора? Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
+- [Что такое `селектор (selector)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/what_is_selector.md)
+- Как его вызвать? как отложить вызов селектора?
+- Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`? `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`
 - Что такое `делегат (delegate)`? как его создать и использовать?
 - Как представлены `структуры C` (CGRect, CGSize, CGPoint) в Objective-C?
@@ -91,10 +95,11 @@ Multithreading:
 ---------------
 - [Что такое `deadlock`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/deadlock.md)
 - [Что такое `livelock`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/livelock.md)
-- Что такое `семафор (semafor)`?
-- Что такое `мьютекс (mutex)`?
+- [Что такое `семафор (semafor)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/semaphore.md)
+- [Что такое `мьютекс (mutex)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/mutex.md)
 - `Асинхронность` vs `многопоточность`. Чем отличаются?
-- Какие технологии в iOS возможно использовать для работы с потоками. Преимущества и недостатки.
+- [Что такое `состояние гонки`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/race_condition.md)
+- [Какие технологии в iOS возможно использовать для работы с потоками. Преимущества и недостатки.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/another_thread_technology.md)
 - Как запустить поток? Что первым нужно сделать при запуске потока? (NSAutoreleasePool - пул автоосвобождения) Что такое runLoop, кодга он используется? (timers, nsurlconnection …)
 - Чем отличается `dispatch_async от dispatch_sync`?
 - Для чего при разработке под iOS использовать `POSIX-потоки`? `pthread_create(&thread, NULL, startTimer, (void *)t);`
@@ -156,7 +161,9 @@ Algorithms:
 
 Logical:
 --------
-- Есть 4 человека, каждый проходит мост за 1, 2, 5, и 10 минут соответственно. Через мост они могут переходить только парами, держась за руку и только с фонариком. Притом один должен вернуться обратно и передать фонарик. Необходимо переправить всех за 17 мин на другую сторону. Задача решаема.
+Есть 4 человека, каждый проходит мост за 1, 2, 5, и 10 минут соответственно. Через мост они могут переходить только парами, держась за руку и только с фонариком. Притом один должен вернуться обратно и передать фонарик. Необходимо переправить всех за 17 мин на другую сторону. Задача решаема.
+
+[Решение](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/aanswers/logical/bridge.md)
 
 
 Code Puzzels:
