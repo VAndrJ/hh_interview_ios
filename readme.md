@@ -62,10 +62,18 @@ Objective-C, Foundation:
 - Как лучше всего загрузить `UIImage c диска(с кеша)`?
 - Какой контент лучше хранить в `Documents`, а какой в `Cache`?
 - Как связаны `NSRunLoop и NSAutoreleasePool` на пальцах?
+- [Что такое autorelease?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/autorelease.md)
 - Почему нам не следует вызывать `instance методы в методе initialize`,?
 - `NSCoding, archiving`
 - Протокол `NSCopying`, почему мы не можем просто использовать любой собственный объект в качестве ключа в словарях (NSDictionary) , что нужно сделать чтобы решить эту проблему? (разница между глубоким и поверхностным копированием)
-
+- [Безымянные методы.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/noname_methods.md)
+- [Квадратные скобки для доступа к элементам массива или словаря можно использовать и со своими объектами.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/new_methods.md)
+- [Неявные property](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/implicit_property.md)
+- [Распечатать текущий autorelease pool.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/print_autoreleasepool.md)
+- [Доступ к публичным ivar-ам как в структурах.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_access.md)
+- [Использование instancetype.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/instancetype.md)
+- [Проксирование: forwardingTargetForSelector: и forwardInvocation:](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/proxing.md)
+- [NSFastEnumeration](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsfastenumaration.md)
 Memory Management:
 ------------------
 - [Как происходит `ручное управление памятью - MRC` в iOS?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/mrc.md)
@@ -91,7 +99,7 @@ Memory Management:
 - Для чего используется класс `NSCoder`?
 - Опишите правильный способ управленя памятью выделяемой под `Outlet'ы`?
 - Реализуйте следующие методы: `retain, release, autorelease`?
-
+- [Ручное выделение памяти под объект без alloc.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/manual_allocation.md)
 Networking:
 ----------
 - Преимущества и недостатки `синхронного и асинхронного` соединения?
@@ -178,7 +186,7 @@ Logical:
 
 Code Puzzels:
 -------------
-- Что не так с этим кодом? Зачем нужны `инициализаторы`?
+- [Что не так с этим кодом? Зачем нужны `инициализаторы`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/code_puzzles/code_puzzles_2.md)
 
 ```objective-c
 [[[SomeClass alloc] init] init];
@@ -281,9 +289,9 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 }
 ```
 
-- Что выведется в консоль?
+- [Что выведется в консоль?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/GCD_example_1.md)
 
-```objc
+```Objective-C
  dispatch_async(dispatch_get_main_queue(), ^
     {
         NSLog(@"A %d", [object retainCount]);
@@ -296,9 +304,8 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
     NSLog(@"D %d", [object retainCount]);
 ```
 
-- Что произойдет при исполнении следующего кода?
-
-```objc
+- [Что произойдет при исполнении следующего кода?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/swift/code_puzzles_1.md)
+```Objective-C
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ```
 
