@@ -23,7 +23,7 @@ Objective-C, Foundation:
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
 - Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?
 - Суть `рантайма (Runtime), отправление сообщения`;
-
+- [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
 
 - В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя? Разница между nil и Nil?
@@ -34,15 +34,18 @@ Objective-C, Foundation:
 - Что такое `делегат (delegate)`? как его создать и использовать?
 - Как представлены `структуры C` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-c отличается от структуры С, что такое структура в С.
-- Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? Как работает proxy? Как эмитировать множественное наследование?
+- [Какие существуют `root классы` в iOS? Для чего нужны `root классы`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/root_classes.md)
+
+- Корневые классы: NSObject, NSProxy? Как работает proxy? Как эмитировать множественное наследование?
+
 - `Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? Что случится во время выполнения если этот метод существует? Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
 - Что такое `указатель isa`? Для чего он нужен?
 - Что происходит с методом после того, как он не нашелся в объекте класса, которому его вызвали? Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)?
-- Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?
-- Можно ли добавить `ivar` в категорию?
+- [Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_extention.md)
+- [Можно ли добавить `ivar` в категорию?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_in_category.md)
 - Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
-- Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`?
+- [Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate_vs_notification.md)
 - В чем разница между `NSArray и NSMutableArray`?
 - Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?
 - `Формальный и неформальный (informal)` протокол? Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
@@ -63,17 +66,19 @@ Objective-C, Foundation:
 
 Memory Management:
 ------------------
-- Как происходит `ручное управление памятью - MRC` в iOS?
+- [Как происходит `ручное управление памятью - MRC` в iOS?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/mrc.md)
 - `autorelease vs release`?
-- Что означает `ARC`?
-- Что делать, если проект написан с использованием ARC, а нужно использовать классы сторонней библиотеки написанной без ARC?
-- `Weak vs assign`, `strong vs copy`?
-- `Atomic vs nonatomic`. Чем отличаются? Как вручную переопределить atomic/nonatomic сеттер в не ARC коде?
+- [Что означает `ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/arc.md)
+- [Что делать, если проект написан с использованием ARC, а нужно использовать классы сторонней библиотеки написанной без ARC?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/how_use_non_arc_libs.md)
+- [`Weak vs assign`, `strong vs copy`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/weak_vs_assign__strong_vs_copy.md)
+- [`Atomic vs nonatomic`. Чем отличаются? ](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/atomic_vs_nonatomic.md)
+- Как вручную переопределить atomic/nonatomic сеттер в не ARC коде?
 - Зачем все свойства ссылающиеся на делегаты `strong/retain`. :)))
 - Что такое `autorelease pool`?
-- Как можно заимплементировать `autorelease pool на с++`?
+- ~~Как можно заимплементировать `autorelease pool на с++`?~~
 - Если я вызову `performSelector:withObject:afterDelay:` - объекту пошлется сообщение retain?
-- Как происходит обработка `memory warning`(предупреждение о малом  количестве памяти)? Зависит ли обработка от версии iOS, как мы должны их обрабатывать?
+- [Как происходит обработка `memory warning`(предупреждение о малом  количестве памяти)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/memory_warning.md)
+- Зависит ли обработка от версии iOS, как мы должны их обрабатывать?
 - Напишите простую реализацию `NSAutoreleasePoll` на Objective-C
 - Когда нужно использовать метод `retainCount` (никогда, почему?) Объясните что такое `подсчет ссылок (retain count`)?
 - Темы управления памятью, такие как владение `retain/release/autorelease`.
