@@ -306,7 +306,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
     NSLog(@"D %d", [object retainCount]);
 ```
 
-- [Что произойдет при исполнении следующего кода?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/swift/code_puzzles_1.md)
+- [Что произойдет при исполнении следующего кода?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/code_puzzles/code_puzzles_1.md)
 ```Objective-C
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ```
