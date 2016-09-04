@@ -1,4 +1,4 @@
-## Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`?
+## Какая разница между использование `делегатов (delegation)` и `нотификейшенов (notification)`?
 
 [**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 

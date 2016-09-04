@@ -21,12 +21,13 @@ General:
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
-- Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?
+- [Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/designated_initializer.md)
 - Суть `рантайма (Runtime), отправление сообщения`;
 - [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
 
-- В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя? Разница между nil и Nil?
+- В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя?
+- [Разница между `nil` и `Nil`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nil_Nil_NSNull.md)
 - [Что такое `селектор (selector)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/what_is_selector.md)
 - Как его вызвать? как отложить вызов селектора?
 - Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
@@ -45,11 +46,13 @@ Objective-C, Foundation:
 - [Можно ли добавить `ivar` в категорию?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_in_category.md)
 - Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
-- [Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate_vs_notification.md)
+- [Какая разница между использование `делегатов (delegation)` и `нотификейшенов (notification)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate_vs_notification.md)
 - В чем разница между `NSArray и NSMutableArray`?
-- Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?
-- `Формальный и неформальный (informal)` протокол? Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
-- Есть ли `приватные и защищенные` методы в Objective-C?
+- [Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/NSSet_NSArray.md)
+- [Как получить текущую координату?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/how_get_current_coordinate.md)
+- [`Формальный и неформальный (informal)` протокол?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/formal_vs_informal_protocol.md)
+- Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
+- [Есть ли `приватные и защищенные` методы в Objective-C?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/private_and_protected_methods.md)
 - Что такое `быстрое перечисление (fast enumeration)`?
 - Как имитировать `множественное наследование`?
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
