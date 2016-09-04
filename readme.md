@@ -268,7 +268,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 }
 ```
 
-- [Выведется ли в дебагер «Hello world»? Почему?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/deadlock_examople_1.md)
+- [Выведется ли в дебагер «Hello world»? Почему?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/deadlock_example_1.md)
 
 ```Objective-C
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
