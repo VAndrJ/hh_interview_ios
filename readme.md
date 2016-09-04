@@ -101,6 +101,7 @@ Memory Management:
 - Опишите правильный способ управленя памятью выделяемой под `Outlet'ы`?
 - Реализуйте следующие методы: `retain, release, autorelease`?
 - [Ручное выделение памяти под объект без alloc.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/manual_allocation.md)
+
 Networking:
 ----------
 - Преимущества и недостатки `синхронного и асинхронного` соединения?
