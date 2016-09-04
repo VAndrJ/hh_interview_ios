@@ -22,10 +22,10 @@ Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
 - [Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/designated_initializer.md)
-- Суть `рантайма (Runtime), отправление сообщения`;
+- [Суть `рантайма (Runtime), отправление сообщения`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/runtime.md)
 - [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
-
+- [Разница между NSObject и id?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsobject_vs_id.md
 - В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя?
 - [Разница между `nil` и `Nil`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nil_Nil_NSNull.md)
 - [Что такое `селектор (selector)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/what_is_selector.md)
@@ -36,18 +36,18 @@ Objective-C, Foundation:
 - Как представлены `структуры C` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-c отличается от структуры С, что такое структура в С.
 - [Какие существуют `root классы` в iOS? Для чего нужны `root классы`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/root_classes.md)
-
 - Корневые классы: NSObject, NSProxy? Как работает proxy? Как эмитировать множественное наследование?
-
-- `Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? Что случится во время выполнения если этот метод существует? Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
+- [`Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? ](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/send_message_to_id.md)
+- Что случится во время выполнения если этот метод существует? Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
 - Что такое `указатель isa`? Для чего он нужен?
 - Что происходит с методом после того, как он не нашелся в объекте класса, которому его вызвали? Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)?
 - [Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_extention.md)
 - [Можно ли добавить `ivar` в категорию?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/ivar_in_category.md)
-- Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?
+- [Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/category_vs_inheritance.md)
+
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
 - [Какая разница между использование `делегатов (delegation)` и `нотификейшенов (notification)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate_vs_notification.md)
-- В чем разница между `NSArray и NSMutableArray`?
+- [В чем разница между `NSArray и NSMutableArray`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsarray_nsmutablearray.md)
 - [Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/NSSet_NSArray.md)
 - [Как получить текущую координату?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/how_get_current_coordinate.md)
 - [`Формальный и неформальный (informal)` протокол?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/formal_vs_informal_protocol.md)
@@ -59,7 +59,7 @@ Objective-C, Foundation:
 - Что такое `KVC`? Когда его нужно использовать?
 - Что такое `designated initializer`?
 - Как удалить объект в ходе итерации по циклу?
-- Что такое `Run Loop`?
+- [Что такое `Run Loop`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/run_loop.md)
 - Как лучше всего загрузить `UIImage c диска(с кеша)`?
 - Какой контент лучше хранить в `Documents`, а какой в `Cache`?
 - Как связаны `NSRunLoop и NSAutoreleasePool` на пальцах?
@@ -71,6 +71,7 @@ Memory Management:
 ------------------
 - [Как происходит `ручное управление памятью - MRC` в iOS?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/mrc.md)
 - `autorelease vs release`?
+- [Что такое autorelease pool?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/autorelease_pool.md)
 - [Что означает `ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/arc.md)
 - [Что делать, если проект написан с использованием ARC, а нужно использовать классы сторонней библиотеки написанной без ARC?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/how_use_non_arc_libs.md)
 - [`Weak vs assign`, `strong vs copy`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/memory_managment/weak_vs_assign__strong_vs_copy.md)
@@ -95,9 +96,10 @@ Memory Management:
 Networking:
 ----------
 - Преимущества и недостатки `синхронного и асинхронного` соединения?
-- Что означает `http, tcp`?
-- Какие различия между `HEAD, GET, POST, PUT`?
+- [Что означает `http, tcp`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/networking/http_tcp.md)
+- [Какие различия между `HEAD, GET, POST, PUT`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/networking/difference_between_head_get_post_put.md)
 - Как загрузить что-то из интернета? В чем разница между `синхронными и асинхронными запросами`? Небольшое задание. Опишите как загрузить изображение из интернета и отобразить его в ImageView — все это должно происходить после нажатия кнопки.
+- [Архитектура REST](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/networking/rest.md)
 
 Multithreading:
 ---------------
@@ -109,7 +111,7 @@ Multithreading:
 - [Что такое `состояние гонки`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/race_condition.md)
 - [Какие технологии в iOS возможно использовать для работы с потоками. Преимущества и недостатки.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/another_thread_technology.md)
 - Как запустить поток? Что первым нужно сделать при запуске потока? (NSAutoreleasePool - пул автоосвобождения) Что такое runLoop, кодга он используется? (timers, nsurlconnection …)
-- Чем отличается `dispatch_async от dispatch_sync`?
+- [Чем отличается `dispatch_async от dispatch_sync`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/dispatch_sync_vs_async.md)
 - Для чего при разработке под iOS использовать `POSIX-потоки`? `pthread_create(&thread, NULL, startTimer, (void *)t);`
 - А чем реально `POSIX-потоки` лучше чем `GCD или NSOperationQueue вместе с NSOperation`? Приходилось ри реально использовать POSIX и как в этом были прюсы? Реально, просто интересно…
  `Use POSIX calls if cross-platform portability is required. If you are writing networking code that runs exclusively in OS X and iOS, you should generally avoid POSIX networking calls, because they are harder to work with than higher-level APIs. However, if you are writing networking code that must be shared with other platforms, you can use the POSIX networking APIs so that you can use the same code everywhere. `
@@ -136,12 +138,13 @@ UIKit:
 id ==3. (`Developers:id,name; Projects:id,name; Developers&Projects:project_id,developer_id`)?
 - Зачем нужно делать `двустороннии связи` в таблицах?
 
-- Что такое `Core Data`?
-- В каких случаях лучше использовать `SQLite`, а в каких `Core Data`?
-- Что такое `контекст (Managed object context)`? Как происходят `изменения в NSManagedObjectContext`?
-- Что такое `Persistent store coordinator`? Зачем нужен `NSPersistentStoreCoordinator`?
-- Какие есть нюансы при использовании `Core Data в разных потоках`? Как `синхронизировать данные между потоками`(Как синхронизировать контекст)? Синхронизация разных типов NSManagedObjectContext (получение и изменение данных в child контекстах)?
-- Использовали ли `NSFetchedResultsController`? Почему?
+- [Что такое `Core Data`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/coredata/coredata.md)
+- [В каких случаях лучше использовать `SQLite`, а в каких `Core Data`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/coredata/sqlite_vs_coredata.md)
+- ~~Что такое `контекст (Managed object context)`? Как происходят `изменения в NSManagedObjectContext`?~~
+- ~~Что такое `Persistent store coordinator`? Зачем нужен `NSPersistentStoreCoordinator`?~~
+- [Какие есть нюансы при использовании `Core Data в разных потоках`? Как `синхронизировать данные между потоками`(Как синхронизировать контекст)? Синхронизация разных типов NSManagedObjectContext (получение и изменение данных в child контекстах)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/coredata/coredata_vs_threads.md)
+
+- [Использовали ли `NSFetchedResultsController`? Почему?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/coredata/nsfetchresultcontroller.md)
 - Что такое `Fault` и зачем он нужен?
 - Что таке `Fetched Property` и особенности работы с ним по сравнению с обычной связью?
 - Как использовать `СoreData` совместно с `многопоточностью`?
@@ -265,9 +268,9 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 }
 ```
 
-- Выведется ли в дебагер «Hello world»? Почему?
+- [Выведется ли в дебагер «Hello world»? Почему?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/multithreading/deadlock_examople_1.md)
 
-```objc
+```Objective-C
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     dispatch_sync(dispatch_get_main_queue(), ^{
