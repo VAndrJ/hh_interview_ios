@@ -307,15 +307,17 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ```
 
+
+
 Swift:
 -------------
 
 - [Weak vs unowned](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/swift/weak_vs_unowned.md)
 
 
-
-
 ## Контакты для связи:
 * skype: torlopov.andrey
 * email: [torlopov.andrey@gmail.com](mailto:torlopov.andrey@gmail.com)
 * github: [https://github.com/Torlopov-Andrey](https://github.com/Torlopov-Andrey)
+
+--- TEST
