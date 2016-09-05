@@ -51,7 +51,7 @@ Objective-C, Foundation:
 - [Есть ли `приватные и защищенные` методы в Objective-C?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/private_and_protected_methods.md)
 - [Что такое `быстрое перечисление (fast enumeration)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/fast_enumeration.md)
 - Как имитировать `множественное наследование`?
-- Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
+- [Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/kvo.md)
 - Что такое `KVC`? Когда его нужно использовать?
 - Как удалить объект в ходе итерации по циклу?
 - [Что такое `Run Loop`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/run_loop.md)
