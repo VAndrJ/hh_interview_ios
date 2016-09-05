@@ -10,14 +10,10 @@ General:
 
 - [Расскажите о паттерне `MVC`. Чем отличается `пассивная` модель от `активной`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/mvc_active_passive.md)
 - [Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/singleton_arc_non_arc.md)
-
-
 - [Какие еще `паттерны` знаете?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/lilbit_patterns.md)
-
 - Что такое `responder chain`?
-
 - [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/how_work_push_notif.md)
-
+- [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/solid.md)
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
@@ -28,9 +24,8 @@ Objective-C, Foundation:
 - [Разница между NSObject и id?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsobject_vs_id.md)
 - В чем разница между `точечной нотацией` и использованием квадратных скобок? Что происходит когода мы пытаемся вызвать метод у nil указателя?
 - [Разница между `nil` и `Nil`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nil_Nil_NSNull.md)
-- [Что такое `селектор (selector)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/what_is_selector.md)
-- Как его вызвать? как отложить вызов селектора?
-- Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
+- [Что такое `селектор (selector)`?Как его вызвать? как отложить вызов селектора?Что делать если селектор имеет много параметров? `(NSInvocation)`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/selector.md)
+- Как запустить селектор во второстепенном `(фоновом) потоке`?
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`? `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`
 - [Что такое `делегат (delegate)`? как его создать и использовать?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/delegate.md)
 - Как представлены `структуры C` (CGRect, CGSize, CGPoint) в Objective-C?
@@ -53,7 +48,7 @@ Objective-C, Foundation:
 - [Формальный и неформальный (informal) протокол?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/formal_vs_informal_protocol.md)
 - Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
 - [Есть ли `приватные и защищенные` методы в Objective-C?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/private_and_protected_methods.md)
-- Что такое `быстрое перечисление (fast enumeration)`?
+- [Что такое `быстрое перечисление (fast enumeration)`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/fast_enumeration.md)
 - Как имитировать `множественное наследование`?
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
 - Что такое `KVC`? Когда его нужно использовать?
@@ -132,7 +127,7 @@ UIKit:
 - Цикл жизни `UIViewController`?
 - Что такое `View` (представление) и что такое `window`?
 - Какого разрешение экранов iphon'ов, и в чем разница между `points (точками)` и `пикселями (pixels)`?
-- Что такое `responder chain` (цепочка обязанностей, `паттерн chain of responsibility`, на примере UI компонентов iOS ), `becomeFirstResponder`.
+- [Что такое `responder chain` (цепочка обязанностей, `паттерн chain of responsibility`, на примере UI компонентов iOS ), `becomeFirstResponder`.](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/uikit/responder_chain.md)
 - Что означают `IBOutlet` и `IBAction`, для чего они нужны, и что значат для препроцессора?
 - Как работает `UITableView`?
 - Как многопоточность работает с `UIKit`?
