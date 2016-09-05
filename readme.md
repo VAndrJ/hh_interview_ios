@@ -14,6 +14,7 @@ General:
 - Что такое `responder chain`?
 - [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/how_work_push_notif.md)
 - [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/solid.md)
+
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
