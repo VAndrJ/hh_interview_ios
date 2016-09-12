@@ -12,8 +12,8 @@ General:
 - [Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/singleton_arc_non_arc.md)
 - [Какие еще `паттерны` знаете?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/lilbit_patterns.md)
 - Что такое `responder chain`?
-- [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/how_work_push_notif.md)
-- [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/solid.md)
+- [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/how_work_push_notif.md)
+- [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/solid.md)
 
 Objective-C, Foundation:
 ------------------------
