@@ -1,4 +1,4 @@
-## Что такое `deadlock`?
+## Что такое архитектура `REST`?
 
 [**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
