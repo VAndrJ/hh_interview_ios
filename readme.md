@@ -19,7 +19,7 @@ Objective-C, Foundation:
 ------------------------
 - [Что такое UINavigationController?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/uinavigationcontroller.md)
 
-- Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)
+- [Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` иa т.д)](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/base_oop_term_per_objc.md)
 - [Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/designated_initializer.md)
 - [Суть `рантайма (Runtime), отправление сообщения`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/runtime.md)
 - [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
