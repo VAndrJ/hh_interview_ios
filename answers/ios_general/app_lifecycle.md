@@ -5,6 +5,9 @@
 
 [Описание в документации apple](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html)
 
+[Описание на русском](http://proswift.ru/ios-application-lifecycle-ili-zhiznennyj-cikl-ios-prilozheniya/)
+
+
 **Table 2-3  App states**
 
 |State      | Description|
@@ -17,3 +20,5 @@
 
 
 ![Диаграмма](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png)
+
+![Диаграмма 2](http://proswift.ru/wp-content/uploads/2015/10/AplicationLifeCycle_proSwift_ru-600x648.jpg)
