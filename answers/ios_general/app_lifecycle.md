@@ -7,7 +7,6 @@
 
 **Table 2-3  App states**
 
-
 |State      | Description|
 |-----------|------------|
 |Not running|The app has not been launched or was running but was terminated by the system.|
