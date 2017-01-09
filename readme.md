@@ -15,6 +15,10 @@ General:
 - [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/how_work_push_notif.md)
 - [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/solid.md)
 
+IOS general
+-----------
+- [Цикл жизни ios-приложения](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/ios_general/app_lifecycle.md)
+
 Objective-C, Foundation:
 ------------------------
 - [Что такое UINavigationController?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/uinavigationcontroller.md)
