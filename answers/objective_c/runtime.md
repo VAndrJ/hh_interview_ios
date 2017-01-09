@@ -1,4 +1,4 @@
-## Как добавить свойство в существующий объект с закрытой реализацией через runtime?
+## Суть `рантайма (Runtime), отправление сообщения`.
 
 [**Вернутся к списку вопросов**](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/readme.md)
 
