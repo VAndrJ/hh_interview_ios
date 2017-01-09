@@ -8,9 +8,9 @@ General:
 
 - [Чем `абстрактный класс` отличается от `интерфейса`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/abstractclass_vs_interface.md)
 
-- [Расскажите о паттерне `MVC`. Чем отличается `пассивная` модель от `активной`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/mvc_active_passive.md)
-- [Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/singleton_arc_non_arc.md)
-- [Какие еще `паттерны` знаете?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/lilbit_patterns.md)
+- [Расскажите о паттерне `MVC`. Чем отличается `пассивная` модель от `активной`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/pattern/mvc_active_passive.md)
+- [Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/pattern/singleton_arc_non_arc.md)
+- [Какие еще `паттерны` знаете?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/pattern/lilbit_patterns.md)
 - Что такое `responder chain`?
 - [Как работают `push нотификации`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/how_work_push_notif.md)
 - [Что такое `SOLID` принципы?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/solid.md)
