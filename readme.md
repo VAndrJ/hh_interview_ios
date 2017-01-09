@@ -25,7 +25,7 @@ Objective-C, Foundation:
 
 - [Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` иa т.д)](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/base_oop_term_per_objc.md)
 - [Что такое назначеный `инициализатор (designated initializer`), напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/designated_initializer.md)
-- [Суть `рантайма (Runtime), отправление сообщения`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/runtime.md)
+- [Суть `рантайма (Runtime), отправление сообщения`](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/runtime.md)
 - [Как добавить свойство в существующий объект с закрытой реализацией через runtime?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/add_property_in_runtime.md)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Как правильно реализовать сетер для свойства с параметром retain? Вопрос о циклах в графах владения, и почему свойства delegate (предоставляющие доступ к делегату) обычно задаются как `assign`?
 - [Разница между NSObject и id?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/objective_c/nsobject_vs_id.md)
