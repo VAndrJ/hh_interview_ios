@@ -1,4 +1,5 @@
-Вопросы и ответы на собеседование iOS разработчика:
+# Вопросы и ответы на собеседование iOS разработчика:
+
 =======
 General:
 --------
@@ -317,8 +318,10 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 
 Swift:
 -------------
-
 - [Weak vs unowned](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/swift/weak_vs_unowned.md)
+- [escaping in closures](http://stackoverflow.com/questions/39063499/updating-closures-to-swift-3-escaping)
+
+
 
 ## Контакты для связи:
 * skype: torlopov.andrey
