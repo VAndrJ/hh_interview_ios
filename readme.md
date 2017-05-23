@@ -1,8 +1,7 @@
 # Вопросы и ответы на собеседование iOS разработчика:
 
-=======
-General:
---------
+# General:
+
 - [Что такое `полиморфизм`?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/polymorphism.md)
 
 - [Что такое `инкапсуляция`? Что такое нарушение инкапсуляции?](https://github.com/Torlopov-Andrey/hh_interview_ios/blob/master/answers/general/oop/encapsulation.md)
